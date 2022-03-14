@@ -1,0 +1,43 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  background-color: hsl(0, 0%, 100%);
+  overflow: hidden;
+  border-radius: 1pc;
+  
+  height: 80vh;
+  width: 25vw;
+  margin: 10vh auto;
+}
+.imag{
+    width: 90%;
+    height: 55%;
+    padding: 1pc;
+    border-radius: 2pc;
+}
+.wrapper{
+    height: 60%;
+}
+
+h1{
+    padding: 0pc 1pc;
+    overflow: hidden;
+    color: hsl(217, 44%, 16%);
+    font-weight: bold;
+    font-size: 1.5pc;
+    text-align: center;
+}
+h3{
+    color: hsl(220, 15%, 55%);
+    font-weight: lighter;
+    padding: 1pc;
+    font-size: 1pc;
+    text-align: center;
+}
+.attribution{
+    margin-top: 1vh;
+    margin-left: 40%;
+    margin-right: 40%;
+}
