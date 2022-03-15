@@ -2,6 +2,8 @@
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
+https://thomaslincoln.github.io/Frontend_Mentor_Qr_Code/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
