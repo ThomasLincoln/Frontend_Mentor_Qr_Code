@@ -6,64 +6,186 @@ body {
   background-color: hsl(0, 0%, 100%);
   overflow: hidden;
   border-radius: 1pc;
-  
+
   height: 80vh;
   width: 25vw;
   margin: 5vh auto;
 }
-.imag{
+.imag {
+  width: 90%;
+  height: 55%;
+  padding: 1pc;
+  border-radius: 2pc;
+}
+.wrapper {
+  height: 60%;
+}
+
+h1 {
+  padding: 0pc 1pc;
+  overflow: hidden;
+  color: hsl(217, 44%, 16%);
+  font-weight: bold;
+  font-size: 1.5pc;
+  text-align: center;
+}
+h3 {
+  color: hsl(220, 15%, 55%);
+  font-weight: lighter;
+  padding: 1pc;
+  font-size: 1pc;
+  text-align: center;
+}
+.attribution {
+  margin-top: 1vh;
+  margin-left: 40%;
+  margin-right: 40%;
+
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 393px) {
+  .box {
+    width: 80%;
+    height: 80vh;
+    margin: 2pc;
+  }
+  h1 {
+    margin: 1pc;
+    font-size: 1.1pc;
+  }
+  h3 {
+    font-size: 0.9pc;
+
+    padding: 0.5pc 1pc;
+  }
+  .attribution {
+    margin: 0pc 20%;
+
+    font-size: 1pc;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 393px) {
+  .box {
+    width: 40%;
+  }
+  h1 {
+    font-size: 1.1pc;
+    margin: 0.1pc;
+  }
+  h3 {
+    font-size: 0.9pc;
+
+    padding: 0.5pc 1pc;
+  }
+  .attribution {
+    font-size: 0.8pc;
+    margin: 0pc 10%;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  .box {
+    width: 85%;
+    height: 59vh;
+    margin: 10vh auto;
+    margin-bottom: 2vh;
+  }
+  h1 {
+    font-size: 1.4pc;
+    margin: 0.3pc;
+  }
+  h3 {
+    font-size: 1pc;
+
+    padding: 0pc 1pc;
+  }
+  .attribution {
+    font-size: 0.8pc;
+    margin: 0pc 10%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 360px) {
+  .box {
+    width: 85%;
+    height: 59vh;
+    margin: 10vh auto;
+    margin-bottom: 2vh;
+  }
+  h1 {
+    font-size: 1.2pc;
+    margin: 0.3pc;
+  }
+  h3 {
+    font-size: 1pc;
+
+    padding: 0pc 1pc;
+  }
+  .attribution {
+    font-size: 0.8pc;
+    margin: 0pc 10%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 768px) {
+  .box {
+    width: 85%;
+    height: 80vh;
+    margin: 8vh auto;
+    margin-bottom: 2vh;
+  }
+  h1 {
+    font-size: 2.8pc;
+    margin: 1pc;
+  }
+  h3 {
+    font-size: 2pc;
+
+    padding: 0.6pc 2pc;
+  }
+  .attribution {
+    font-size: 1.5pc;
+    margin: 0pc 10%;
+  }
+  .imag {
     width: 90%;
     height: 55%;
-    padding: 1pc;
-    border-radius: 2pc;
-}
-.wrapper{
-    height: 60%;
-}
-
-h1{
-    padding: 0pc 1pc;
-    overflow: hidden;
-    color: hsl(217, 44%, 16%);
-    font-weight: bold;
-    font-size: 1.5pc;
-    text-align: center;
-}
-h3{
-    color: hsl(220, 15%, 55%);
-    font-weight: lighter;
-    padding: 1pc;
-    font-size: 1pc;
-    text-align: center;
-}
-.attribution{
-    margin-top: 1vh;
-    margin-left: 40%;
-    margin-right: 40%;
-
-    text-align: center;
-}
-
-@media only screen and (max-width: 375px) {
-    .box{
-        width: 80%;
-        height:80vh;
-        margin: 2pc;
-    }
-    h1{
-        margin: 1pc;
-        font-size: 1.1pc;
-        font-weight: bolder;
-    }
-    h3{
-        font-size: 0.9pc;
-
-        padding: 0.5pc 1pc;
-    }
-    .attribution{
-        margin: 0pc 20%;
-        
-        font-size: 1pc;
-
-    }
+    padding: 2pc;
+    border-radius: 3pc;
   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 820px) {
+  .box {
+    width: 85%;
+    height: 80vh;
+    margin: 6vh auto;
+  }
+  h1 {
+    font-size: 3pc;
+    margin: 0.3 2pc;
+  }
+  h3 {
+    font-size: 2.2pc;
+
+    padding: 0pc 2pc;
+  }
+  .attribution {
+    font-size: 1.8pc;
+    margin: 0pc 10%;
+  }
+
+  .imag {
+    width: 90%;
+    height: 55%;
+    padding: 2pc;
+    border-radius: 3pc;
+  }
+}
