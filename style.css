@@ -9,7 +9,7 @@ body {
   
   height: 80vh;
   width: 25vw;
-  margin: 10vh auto;
+  margin: 5vh auto;
 }
 .imag{
     width: 90%;
@@ -40,4 +40,30 @@ h3{
     margin-top: 1vh;
     margin-left: 40%;
     margin-right: 40%;
+
+    text-align: center;
 }
+
+@media only screen and (max-width: 375px) {
+    .box{
+        width: 80%;
+        height:80vh;
+        margin: 2pc;
+    }
+    h1{
+        margin: 1pc;
+        font-size: 1.1pc;
+        font-weight: bolder;
+    }
+    h3{
+        font-size: 0.9pc;
+
+        padding: 0.5pc 1pc;
+    }
+    .attribution{
+        margin: 0pc 20%;
+        
+        font-size: 1pc;
+
+    }
+  }
