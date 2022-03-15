@@ -5,8 +5,8 @@ body {
 .box {
   background-color: hsl(0, 0%, 100%);
   overflow: hidden;
-  border-radius: 1pc;
 
+  border-radius: 1pc;
   height: 80vh;
   width: 25vw;
   margin: 5vh auto;
@@ -22,10 +22,10 @@ body {
 }
 
 h1 {
-  padding: 0pc 1pc;
+    color: hsl(217, 44%, 16%);
+    font-weight: bold;
   overflow: hidden;
-  color: hsl(217, 44%, 16%);
-  font-weight: bold;
+  padding: 0pc 1pc;
   font-size: 1.5pc;
   text-align: center;
 }
@@ -40,7 +40,7 @@ h3 {
   margin-top: 1vh;
   margin-left: 40%;
   margin-right: 40%;
-
+  font-size: 2pc;
   text-align: center;
 }
 
@@ -141,8 +141,8 @@ h3 {
     margin-bottom: 2vh;
   }
   h1 {
-    font-size: 2.8pc;
-    margin: 1pc;
+    padding: 0pc 1pc;
+    font-size: 1.5pc;
   }
   h3 {
     font-size: 2pc;
@@ -187,5 +187,35 @@ h3 {
     height: 55%;
     padding: 2pc;
     border-radius: 3pc;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .box {
+    border-radius: 1pc;
+    height: 80vh;
+    width: 25vw;
+    margin: 5vh auto;
+  }
+  h1 {
+    padding: 0pc 1pc;
+    font-size: 1.4pc;
+  }
+  h3 {
+    padding: 1pc;
+    font-size: 1pc;
+  }
+  .attribution {
+    margin-top: 1vh;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 1pc;
+  }
+
+  .imag {
+    width: 90%;
+    height: 55%;
+    padding: 1pc;
+    border-radius: 2pc;
   }
 }
